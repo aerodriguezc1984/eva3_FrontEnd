@@ -1,0 +1,58 @@
+/* Estilos compartidos por las secciones (Hero, Nosotros, Servicios, FAQ, Footer) */
+
+.container--narrow { max-width: 760px; }
+
+.estado { text-align: center; color: var(--color-text-soft); padding: var(--space-md); }
+.estado--error { color: var(--color-error); }
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: #fff;
+  padding: var(--space-xl) 0;
+}
+.hero__inner { max-width: 720px; }
+.hero h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); margin-bottom: var(--space-md); }
+.hero p { font-size: var(--fs-lg); margin-bottom: var(--space-lg); opacity: 0.95; }
+.hero__cta { display: flex; gap: var(--space-md); flex-wrap: wrap; }
+
+/* NOSOTROS */
+.about { display: grid; grid-template-columns: 2fr 1fr; gap: var(--space-lg); align-items: center; }
+.about__texto p { margin-bottom: var(--space-md); color: var(--color-text-soft); }
+.about__stats { list-style: none; display: flex; flex-direction: column; gap: var(--space-md); }
+.about__stats li {
+  background: var(--color-surface); border-radius: var(--radius);
+  padding: var(--space-md); text-align: center;
+}
+.about__valor { display: block; font-size: var(--fs-xl); font-weight: 700; color: var(--color-accent); }
+.about__etiqueta { color: var(--color-text-soft); font-size: var(--fs-sm); }
+
+/* GRID DE TARJETAS (responsive: se ajusta solo) */
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-lg);
+}
+
+/* FAQ (acordeon) */
+.faq { display: flex; flex-direction: column; gap: var(--space-sm); }
+.faq__item {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-bg);
+}
+.faq__pregunta { font-weight: 600; cursor: pointer; color: var(--color-primary); }
+.faq__respuesta { margin-top: var(--space-sm); color: var(--color-text-soft); }
+
+/* FOOTER */
+.footer { background: var(--color-primary-dark); color: #fff; padding: var(--space-xl) 0 var(--space-md); }
+.footer__inner { display: flex; justify-content: space-between; flex-wrap: wrap; gap: var(--space-lg); }
+.footer h3 { color: #fff; margin-bottom: var(--space-xs); }
+.footer a { color: var(--color-accent); }
+.footer__datos p { margin-bottom: var(--space-xs); }
+.footer__copy { text-align: center; margin-top: var(--space-lg); font-size: var(--fs-sm); opacity: 0.8; }
+
+@media (max-width: 700px) {
+  .about { grid-template-columns: 1fr; }
+}

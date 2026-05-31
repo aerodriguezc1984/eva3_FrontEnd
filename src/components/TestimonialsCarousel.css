@@ -1,0 +1,79 @@
+.carousel {
+  position: relative;
+  max-width: 760px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.carousel__viewport {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: var(--space-lg);
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel__slide { text-align: center; }
+.carousel__quote {
+  font-size: var(--fs-lg);
+  color: var(--color-text);
+  font-style: italic;
+  margin-bottom: var(--space-md);
+}
+.carousel__author { display: flex; flex-direction: column; }
+.carousel__author strong { color: var(--color-primary); }
+.carousel__author span { color: var(--color-text-soft); font-size: var(--fs-sm); }
+
+.carousel__nav {
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background var(--transition);
+}
+.carousel__nav:hover { background: var(--color-primary-dark); }
+
+.carousel__controls {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+}
+.carousel__pause {
+  background: transparent;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+.carousel__dots { display: flex; gap: var(--space-xs); }
+.carousel__dot {
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--color-primary);
+  background: transparent;
+  cursor: pointer;
+}
+.carousel__dot.is-active { background: var(--color-accent); border-color: var(--color-accent); }
+
+/* RESPONSIVE: en moviles, las flechas se ubican bajo la tarjeta */
+@media (max-width: 600px) {
+  .carousel { grid-template-columns: 1fr 1fr; }
+  .carousel__viewport { grid-column: 1 / -1; order: -1; padding: var(--space-md); }
+  .carousel__quote { font-size: var(--fs-md); }
+}

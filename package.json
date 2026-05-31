@@ -1,0 +1,24 @@
+{
+  "name": "eva3-sercotec-landing",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Landing page del Centro de Negocios Santiago de SERCOTEC, desarrollada con React + Vite. Evaluacion Sumativa U3 - Desarrollo Frontend.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/server.js",
+    "start": "concurrently \"npm run server\" \"npm run dev\""
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "concurrently": "^8.2.2",
+    "express": "^4.19.2",
+    "vite": "^5.4.0"
+  }
+}

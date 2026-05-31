@@ -1,0 +1,110 @@
+{
+  "about": {
+    "titulo": "Quiénes somos",
+    "parrafos": [
+      "El Centro de Negocios Santiago de SERCOTEC es una institución dedicada a ofrecer servicios integrales de apoyo y acompañamiento a las micro, pequeñas y medianas empresas, con un enfoque especializado en gestión, innovación y fortalecimiento de capacidades.",
+      "Nuestro objetivo es garantizar el correcto funcionamiento, sostenibilidad y eficiencia de los negocios de nuestros clientes, a través de asesorías periódicas, talleres especializados y seguimiento continuo."
+    ],
+    "indicadores": [
+      { "valor": "+1.200", "etiqueta": "Empresas acompañadas" },
+      { "valor": "15", "etiqueta": "Años de experiencia" },
+      { "valor": "98%", "etiqueta": "Satisfacción de clientes" }
+    ]
+  },
+  "servicios": [
+    {
+      "id": "diagnostico",
+      "titulo": "Diagnóstico Empresarial",
+      "descripcion": "Evaluamos el estado actual de tu negocio en administración, finanzas y procesos para detectar oportunidades de mejora.",
+      "imagen": "/img/servicio-diagnostico.svg",
+      "alt": "Persona analizando indicadores de un negocio"
+    },
+    {
+      "id": "marketing-digital",
+      "titulo": "Marketing Digital",
+      "descripcion": "Te ayudamos a potenciar tu presencia online, redes sociales y estrategias de venta para llegar a más clientes.",
+      "imagen": "/img/servicio-marketing.svg",
+      "alt": "Pantalla mostrando crecimiento en redes sociales"
+    },
+    {
+      "id": "finanzas",
+      "titulo": "Asesoría Financiera",
+      "descripcion": "Ordenamos tus finanzas, flujo de caja y acceso a financiamiento para que tomes mejores decisiones.",
+      "imagen": "/img/servicio-finanzas.svg",
+      "alt": "Gráfico de finanzas y monedas"
+    },
+    {
+      "id": "innovacion",
+      "titulo": "Innovación y Sostenibilidad",
+      "descripcion": "Incorporamos herramientas digitales y estrategias de crecimiento sostenible adaptadas a tu rubro.",
+      "imagen": "/img/servicio-innovacion.svg",
+      "alt": "Bombilla con un brote verde, símbolo de innovación sostenible"
+    },
+    {
+      "id": "networking",
+      "titulo": "Vinculación y Redes",
+      "descripcion": "Te conectamos con instituciones públicas y privadas, espacios de networking y programas de financiamiento.",
+      "imagen": "/img/servicio-networking.svg",
+      "alt": "Personas conectadas en una red de colaboración"
+    },
+    {
+      "id": "capacitacion",
+      "titulo": "Capacitaciones",
+      "descripcion": "Talleres especializados en gestión, ventas y herramientas digitales dictados por expertos del Centro.",
+      "imagen": "/img/servicio-capacitacion.svg",
+      "alt": "Sala de capacitación con participantes"
+    }
+  ],
+  "testimonios": [
+    {
+      "id": 1,
+      "nombre": "María González",
+      "empresa": "Almacén Doña Mary",
+      "texto": "Gracias al acompañamiento del Centro ordené mis finanzas y aumenté mis ventas en un 40% en seis meses.",
+      "avatarAlt": "Foto de María González, dueña de almacén"
+    },
+    {
+      "id": 2,
+      "nombre": "Jorge Rivas",
+      "empresa": "TechRepara SpA",
+      "texto": "Las capacitaciones de marketing digital me permitieron crear mi tienda online y llegar a clientes de todo Chile.",
+      "avatarAlt": "Foto de Jorge Rivas, emprendedor tecnológico"
+    },
+    {
+      "id": 3,
+      "nombre": "Carolina Pérez",
+      "empresa": "Pastelería Dulce Hogar",
+      "texto": "El diagnóstico empresarial fue clave para profesionalizar mi negocio. Hoy tengo procesos claros y un equipo motivado.",
+      "avatarAlt": "Foto de Carolina Pérez, dueña de pastelería"
+    },
+    {
+      "id": 4,
+      "nombre": "Andrés Soto",
+      "empresa": "Logística del Sur",
+      "texto": "La vinculación con redes de apoyo me abrió puertas a financiamiento que no sabía que existía. Excelente equipo.",
+      "avatarAlt": "Foto de Andrés Soto, empresario de logística"
+    }
+  ],
+  "faq": [
+    {
+      "id": 1,
+      "pregunta": "¿Tienen costo los servicios del Centro de Negocios?",
+      "respuesta": "La mayoría de las asesorías y talleres son gratuitos, ya que somos parte de la red de Centros de Negocios de SERCOTEC. Algunos programas específicos pueden tener requisitos de postulación."
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Quiénes pueden acceder a los servicios?",
+      "respuesta": "Micro, pequeñas y medianas empresas, así como personas con una idea de negocio que quieran emprender formalmente en la Región Metropolitana."
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Cómo agendo una primera asesoría?",
+      "respuesta": "Puedes completar el formulario de contacto de este sitio o escribirnos a centro.santiago@centrossercotec.cl. Te contactaremos para coordinar una reunión."
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Dónde están ubicados?",
+      "respuesta": "Nos encontramos en Manuel Rodríguez Sur 749, Santiago (Metro Toesca). Atendemos de lunes a viernes en horario de oficina."
+    }
+  ]
+}
