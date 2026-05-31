@@ -8,18 +8,15 @@ construido con **React + Vite** y una API/CMS simulada con **Node + Express**.
 
 ---
 
-## 👥 Equipo
-
-> **Nombre del equipo:** `EQUIPO_XYZ`  *(reemplazar antes de entregar)*
 >
 > **Integrantes:**
-> - Integrante 1 — *(nombre)*
-> - Integrante 2 — *(nombre)*
-> - Integrante 3 — *(nombre)*
+> - Integrante 1 — *(Andres Rodriguez)*
+> - Integrante 2 — *(Felipe Rodriguez)*
+
 
 ---
 
-## 🧱 Tecnologías
+##  Tecnologías
 
 | Herramienta | Uso |
 |-------------|-----|
@@ -30,7 +27,7 @@ construido con **React + Vite** y una API/CMS simulada con **Node + Express**.
 
 ---
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 eva3_sercotec/
@@ -54,12 +51,12 @@ eva3_sercotec/
 │   └── components/
 │       ├── Navbar.jsx       # Navegación interactiva responsive
 │       ├── Hero.jsx         # Portada
-│       ├── ServiceCard.jsx  # ⭐ Componente reutilizable de tarjeta de servicio
+│       ├── ServiceCard.jsx  #  Componente reutilizable de tarjeta de servicio
 │       ├── ServicesSection.jsx
 │       ├── AboutSection.jsx
-│       ├── TestimonialsCarousel.jsx  # ⭐ Carrusel accesible y responsive
+│       ├── TestimonialsCarousel.jsx  #  Carrusel accesible y responsive
 │       ├── FaqSection.jsx
-│       ├── ContactForm.jsx  # ⭐ Formulario seguro (validación + anti-bot)
+│       ├── ContactForm.jsx  #  Formulario seguro (validación + anti-bot)
 │       └── Footer.jsx
 └── docs/
     ├── CAMBIOS_REALIZADOS.md     # Explicación simple de cada cambio
@@ -69,16 +66,16 @@ eva3_sercotec/
 
 ---
 
-## 🚀 Instalación y ejecución
+##  Instalación y ejecución
 
 Requisitos: **Node.js 18 o superior**.
 
-```bash
+```powershell
 # 1. Instalar dependencias
-npm install
+npm.cmd  install
 
 # 2. Levantar el frontend + la API mock a la vez
-npm start
+npm.cmd start
 ```
 
 Esto abre:
@@ -87,12 +84,7 @@ Esto abre:
 
 > También puedes correrlos por separado: `npm run server` (API) y `npm run dev` (frontend).
 
-Para generar la versión optimizada de producción:
 
-```bash
-npm run build      # genera la carpeta dist/
-npm run preview    # previsualiza la build
-```
 
 ---
 
@@ -125,7 +117,7 @@ Ejemplo de **POST** a `/api/contacto` (cuerpo JSON):
 
 ---
 
-## 🧩 Guía de uso de los componentes
+##  Guía de uso de los componentes
 
 ### `ServiceCard` (tarjeta de servicio reutilizable)
 
@@ -157,7 +149,7 @@ Valida en cliente y servidor e incluye protección anti-bots.
 
 ---
 
-## ♿ Accesibilidad y rendimiento
+##  Accesibilidad y rendimiento
 
 - Etiquetas semánticas, roles ARIA y enlace "saltar al contenido".
 - Foco visible y navegación por teclado en todos los componentes.
@@ -166,7 +158,7 @@ Valida en cliente y servidor e incluye protección anti-bots.
 
 ---
 
-## 🌿 Trabajo colaborativo con Git/GitHub
+##  Trabajo colaborativo con Git/GitHub
 
 El proyecto se desarrolló con ramas por funcionalidad y Pull Requests.
 Ver el historial sugerido y los comandos en
